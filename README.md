@@ -4,7 +4,10 @@ Dungeon game implemented in Java.
 This exercise is part of the online "Object-Oriented programming with Java" course from the University of Helsinki.
 From the course page:
 
-"The user can move by giving a sequence of commands and pressing Enter. The commands are:
+"In this exercise, you implement a dungeon game. In the game, the player is in a dungeon full of vampires. The player has to destroy the vampires before his lamp runs out of battery and the vampires can suck his blood in the darkness. The player can see the vampires with a blinking of their lamp, after which they have to move blind before the following blinking. With one move, the player can walk as many steps as they want.
+
+The game situation, i.e. the dungeon, the player and the vampires are shown in text form. The first line in the print output tells how many moves the player has left (that is to say, how much battery the lamp has). After that, the print output shows player and vampire positions, which in turn are followed by the game map. In the example below, you see the player (@) and three vampires (v); in this case, the player has enough light for fourteen moves.
+The user can move by giving a sequence of commands and pressing Enter. The commands are:
 
     w go up
     s go down
